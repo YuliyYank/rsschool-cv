@@ -1,0 +1,114 @@
+html {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  width: 100%;
+
+  margin: 0;
+
+  background-color: rgb(226, 202, 226);
+}
+
+header {
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 140px;
+
+  margin-bottom: 50px;
+
+  background-color: rgb(143, 99, 141);
+}
+
+.header-title {
+  margin-right: 60px;
+}
+
+.avatar {
+  position: absolute;
+  top: 10px;
+  left: 0;
+
+  width: 200px;
+
+  border-radius: 100px;
+}
+
+div {
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+
+  margin: 10px;
+}
+
+.left-column {
+  flex: 1;
+  margin: 7px 30px 7px 7px;
+
+  border: rgb(143, 99, 141) solid 2px;
+  border-radius: 2px;
+}
+
+ul {
+  padding-inline-start: 15px;
+  line-height: 25px;
+}
+
+.center-column {
+  flex: 2;
+
+  border: rgb(143, 99, 141) solid 2px;
+  border-radius: 2px;
+}
+
+a {
+  color: rgb(102, 55, 102);
+}
+
+.right-column {
+  flex: 1;
+
+  border: rgb(143, 99, 141) solid 2px;
+  border-radius: 2px;
+}
+
+.center-column, .right-column {
+  margin: 7px;
+}
+
+footer {
+  height: 50px;
+
+  text-align: center;
+}
+
+.vk, .insta, .facebook {
+  position: relative;
+
+  margin: 0 10px;
+
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
